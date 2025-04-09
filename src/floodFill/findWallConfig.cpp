@@ -1,3 +1,7 @@
+
+
+
+
 void findWallFrontOrientation(){
     switch {
           case wallLeft():
@@ -81,7 +85,7 @@ void findWallFrontOrientation(){
           default:
               maze[x][y] = 15;
               break;
-      }
+    }
   }
   void findWallBackOrientation(){
     switch {

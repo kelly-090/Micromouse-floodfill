@@ -1,3 +1,6 @@
+#include <Arduino.h>
+#include "API.h"
+
 // ----- API -----
 
 void log(String message) {
