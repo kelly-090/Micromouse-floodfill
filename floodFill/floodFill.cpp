@@ -1,5 +1,4 @@
 #include <queue>
-#include "Coordinate.h"
 
 int mazeWalls[16][16];
 int mazeValues[16][16];
