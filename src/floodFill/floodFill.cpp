@@ -1,4 +1,7 @@
-#include <queue>
+//#include <queue>
+#include <Arduino.h>
+#include "API.h"
+#include "findWallConfig.h"
 
 int mazeWalls[16][16];
 int mazeValues[16][16];
@@ -23,7 +26,7 @@ void assignWall(int type, Coordinate wallCoor){
 }
 
 void floodMaze(){
-  queue<int> queue;
+  //queue<int> queue;
 
 }
 
