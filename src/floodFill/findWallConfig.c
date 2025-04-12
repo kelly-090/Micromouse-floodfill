@@ -1,9 +1,7 @@
-
-
-
+#include "API.h"
 
 void findWallFrontOrientation(){
-    switch {
+    switch{
           case wallLeft():
               mazeWalls[currX][currY] = 1;
               break;
